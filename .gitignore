@@ -1,0 +1,17 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+venv/
+.venv/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+
+# Build script
+build_history.py
