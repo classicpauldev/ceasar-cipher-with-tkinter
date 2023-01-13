@@ -4,7 +4,8 @@ import clipboard
 WHITE = "#fff"
 BLACK = "#000"
 FONT = ("Arial", 15)
-ALPHABETS = 'qwertyuiopasdfghjklzxcvbnm' * 100000
+ALPHABET = 'qwertyuiopasdfghjklzxcvbnm'
+ALPHABETS = ALPHABET * 100000  # Extended for large shifts
 
 window = Tk()
 window.title("Ceasar Cipher X")
