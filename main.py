@@ -44,7 +44,7 @@ def encrypt():
 def decrypt():
     word = text_entry.get().strip()
     if len(word) == 0:
-        tkinter.messagebox.showerror(title="Error", message="Text field cannot be empty")
+        tkinter.messagebox.showerror(title="Error", message="Please enter some text to decrypt")
         return False
     decrypted_word = ""
     try:
