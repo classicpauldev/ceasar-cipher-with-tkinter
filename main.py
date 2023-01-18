@@ -38,7 +38,7 @@ def encrypt():
         clipboard.copy(encrypted_word)
         text_entry.delete(0, END)
         text_entry.insert(END, string=f"{encrypted_word}")
-        tkinter.messagebox.showinfo(title="Success", message="The encrypted word's has been saved to your clipboard")
+        tkinter.messagebox.showinfo(title="Success", message="The encrypted text has been saved to your clipboard")
 
 
 def decrypt():
