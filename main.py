@@ -66,7 +66,7 @@ def decrypt():
         clipboard.copy(decrypted_word)
         text_entry.delete(0, END)
         text_entry.insert(END, string=f"{decrypted_word}")
-        tkinter.messagebox.showinfo(title="Success", message="The decrypted word's has been saved to your clipboard")
+        tkinter.messagebox.showinfo(title="Success", message="The decrypted text has been saved to your clipboard")
 
 
 # Creating the entry textbox
