@@ -11,7 +11,7 @@ def transform(text: str, shift: int) -> str:
             if letter.lower() in ALPHABET:
                 idx = (ALPHABET.index(letter.lower()) + shift) % len(ALPHABET)
                 result += ALPHABET[idx].upper()
-        elif letter.lower() in ALPHABET:
+        elif letter in ALPHABET:
             idx = (ALPHABET.index(letter) + shift) % len(ALPHABET)
             result += ALPHABET[idx]
         else:
