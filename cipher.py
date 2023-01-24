@@ -1,6 +1,7 @@
 """Caesar cipher encoding and decoding."""
 
 ALPHABET = "qwertyuiopasdfghjklzxcvbnm"
+ALPHABET_SIZE = len(ALPHABET)
 
 
 def transform(text: str, shift: int) -> str:
