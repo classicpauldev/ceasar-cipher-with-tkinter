@@ -10,10 +10,10 @@ def transform(text: str, shift: int) -> str:
     for letter in text:
         if letter.isupper():
             if letter.lower() in ALPHABET:
-                idx = (ALPHABET.index(letter.lower()) + shift) % len(ALPHABET)
+                idx = (ALPHABET.index(letter.lower()) + shift) % ALPHABET_SIZE
                 result += ALPHABET[idx].upper()
         elif letter in ALPHABET:
-            idx = (ALPHABET.index(letter) + shift) % len(ALPHABET)
+            idx = (ALPHABET.index(letter) + shift) % ALPHABET_SIZE
             result += ALPHABET[idx]
         else:
             result += letter
