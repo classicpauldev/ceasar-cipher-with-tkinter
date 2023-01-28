@@ -18,3 +18,13 @@ def transform(text: str, shift: int) -> str:
         else:
             result += letter
     return result
+
+
+def encrypt(text: str, shift: int) -> str:
+    """Encrypt text with Caesar cipher."""
+    return transform(text, shift)
+
+
+def decrypt(text: str, shift: int) -> str:
+    """Decrypt text with Caesar cipher."""
+    return transform(text, -shift)
