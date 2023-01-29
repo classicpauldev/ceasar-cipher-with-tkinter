@@ -1,12 +1,12 @@
 from tkinter import *
 import tkinter.messagebox
 import clipboard
+
+from cipher import encrypt as cipher_encrypt, decrypt as cipher_decrypt
+
 WHITE = "#fff"
 BLACK = "#000"
 FONT = ("Arial", 15)
-ALPHABET = 'qwertyuiopasdfghjklzxcvbnm'
-ALPHABETS = ALPHABET * 100000  # Extended for large shifts
-
 window = Tk()
 window.title("Ceasar Cipher X")
 window.config(padx=50, pady=50, bg=WHITE)
