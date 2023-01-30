@@ -19,26 +19,16 @@ def encrypt():
     if len(word) == 0:
         tkinter.messagebox.showerror(title="Error", message="Please enter some text to encrypt")
         return False
-    encrypted_word = ""
     try:
         shift = int(shift_entry.get())
     except ValueError:
         tkinter.messagebox.showerror(title="Error", message="Passcode must be a number\nExample: 123456")
-    else:
-        for letter in word:
-            if letter.isupper():
-                if letter.lower() in ALPHABETS:
-                    new_letter = ALPHABETS[ALPHABETS.index(letter.lower()) + shift]
-                    encrypted_word += new_letter.upper()
-            elif letter in ALPHABETS:
-                new_letter = ALPHABETS[ALPHABETS.index(letter) + shift]
-                encrypted_word += new_letter
-            else:
-                encrypted_word += letter
-        clipboard.copy(encrypted_word)
-        text_entry.delete(0, END)
-        text_entry.insert(END, string=f"{encrypted_word}")
-        tkinter.messagebox.showinfo(title="Success", message="The encrypted text has been saved to your clipboard")
+        return
+    encrypted_word = cipher_encrypt(word, shift)
+    clipboard.copy(encrypted_word)
+    text_entry.delete(0, END)
+    text_entry.insert(END, string=encrypted_word)
+    tkinter.messagebox.showinfo(title="Success", message="The encrypted text has been saved to your clipboard")
 
 
 def decrypt():
