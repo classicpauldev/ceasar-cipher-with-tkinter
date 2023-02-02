@@ -16,7 +16,7 @@ window.config(padx=50, pady=50, bg=WHITE)
 
 def encrypt():
     word = text_entry.get().strip()
-    if len(word) == 0:
+    if word in ("", "Write a text"):
         tkinter.messagebox.showerror(title="Error", message="Please enter some text to encrypt")
         return False
     try:
