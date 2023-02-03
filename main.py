@@ -33,7 +33,7 @@ def encrypt():
 
 def decrypt():
     word = text_entry.get().strip()
-    if len(word) == 0:
+    if word in ("", "Write a text"):
         tkinter.messagebox.showerror(title="Error", message="Please enter some text to decrypt")
         return False
     try:
