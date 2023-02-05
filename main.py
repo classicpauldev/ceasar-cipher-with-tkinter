@@ -22,7 +22,7 @@ def encrypt():
     try:
         shift = int(shift_entry.get())
     except ValueError:
-        tkinter.messagebox.showerror(title="Error", message="Passcode must be a number\nExample: 123456")
+        tkinter.messagebox.showerror(title="Error", message="Passcode must be a number (e.g. 123)")
         return
     encrypted_word = cipher_encrypt(word, shift)
     clipboard.copy(encrypted_word)
@@ -39,7 +39,7 @@ def decrypt():
     try:
         shift = int(shift_entry.get())
     except ValueError:
-        tkinter.messagebox.showerror(title="Error", message="Passcode must be a number\nExample: 123456")
+        tkinter.messagebox.showerror(title="Error", message="Passcode must be a number (e.g. 123)")
         return
     decrypted_word = cipher_decrypt(word, shift)
     clipboard.copy(decrypted_word)
