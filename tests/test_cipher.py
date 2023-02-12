@@ -15,3 +15,7 @@ def test_decrypt_basic():
 def test_roundtrip():
     text = "Hello World"
     assert decrypt(encrypt(text, 5), 5) == text
+
+
+def test_preserves_non_letters():
+    assert encrypt("hello!", 2) == "itssg!"
