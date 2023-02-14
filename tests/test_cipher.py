@@ -19,3 +19,7 @@ def test_roundtrip():
 
 def test_preserves_non_letters():
     assert encrypt("hello!", 2) == "itssg!"
+
+
+def test_large_shift():
+    assert encrypt("a", 26) == "a"
