@@ -23,3 +23,7 @@ def test_preserves_non_letters():
 
 def test_large_shift():
     assert encrypt("a", 26) == "a"
+
+
+def test_uppercase_preserved():
+    assert encrypt("Hello", 1) == "Itssp"
