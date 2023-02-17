@@ -5,3 +5,4 @@ A desktop application for encrypting and decrypting text using the Caesar cipher
 ## Features
 - Encrypt and decrypt text
 - Copy results to clipboard
+- Simple passcode (shift) based encryption
