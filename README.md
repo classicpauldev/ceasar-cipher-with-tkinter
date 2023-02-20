@@ -12,3 +12,11 @@ A desktop application for encrypting and decrypting text using the Caesar cipher
 ```
 pip install -r requirements.txt
 ```
+
+## Usage
+
+Run the application with:
+
+```
+python main.py
+```
