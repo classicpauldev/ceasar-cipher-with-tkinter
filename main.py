@@ -15,6 +15,7 @@ window.config(padx=50, pady=50, bg=WHITE)
 
 
 def encrypt():
+    """Encrypt the text in the entry field using the passcode shift."""
     word = text_entry.get().strip()
     if word in ("", "Write a text"):
         tkinter.messagebox.showerror(title="Error", message="Please enter some text to encrypt")
