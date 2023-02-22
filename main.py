@@ -33,6 +33,7 @@ def encrypt():
 
 
 def decrypt():
+    """Decrypt the text in the entry field using the passcode shift."""
     word = text_entry.get().strip()
     if word in ("", "Write a text"):
         tkinter.messagebox.showerror(title="Error", message="Please enter some text to decrypt")
