@@ -14,16 +14,23 @@ window.config(padx=50, pady=50, bg=WHITE)
 # Creating the functions
 
 
+def _get_shift() -> int | None:
+    """Parse shift from entry, show error and return None if invalid."""
+    try:
+        return int(shift_entry.get())
+    except ValueError:
+        tkinter.messagebox.showerror(title="Error", message="Passcode must be a number (e.g. 123)")
+        return None
+
+
 def encrypt():
     """Encrypt the text in the entry field using the passcode shift."""
     word = text_entry.get().strip()
     if word in ("", "Write a text"):
         tkinter.messagebox.showerror(title="Error", message="Please enter some text to encrypt")
         return False
-    try:
-        shift = int(shift_entry.get())
-    except ValueError:
-        tkinter.messagebox.showerror(title="Error", message="Passcode must be a number (e.g. 123)")
+    shift = _get_shift()
+    if shift is None:
         return
     encrypted_word = cipher_encrypt(word, shift)
     clipboard.copy(encrypted_word)
