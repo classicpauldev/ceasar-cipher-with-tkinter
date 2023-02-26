@@ -45,10 +45,8 @@ def decrypt():
     if word in ("", "Write a text"):
         tkinter.messagebox.showerror(title="Error", message="Please enter some text to decrypt")
         return False
-    try:
-        shift = int(shift_entry.get())
-    except ValueError:
-        tkinter.messagebox.showerror(title="Error", message="Passcode must be a number (e.g. 123)")
+    shift = _get_shift()
+    if shift is None:
         return
     decrypted_word = cipher_decrypt(word, shift)
     clipboard.copy(decrypted_word)
