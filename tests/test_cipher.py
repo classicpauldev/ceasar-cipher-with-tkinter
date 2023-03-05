@@ -31,3 +31,7 @@ def test_uppercase_preserved():
 
 def test_empty_string():
     assert encrypt("", 5) == ""
+
+
+def test_negative_shift():
+    assert decrypt("itssg", -3) == "hello"
