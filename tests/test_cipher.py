@@ -21,6 +21,10 @@ def test_preserves_non_letters():
     assert encrypt("hello!", 2) == "itssg!"
 
 
+def test_preserves_spaces():
+    assert encrypt("hi there", 1) == "uo uifts"
+
+
 def test_large_shift():
     assert encrypt("a", 26) == "a"
 
