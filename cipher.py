@@ -1,4 +1,7 @@
-"""Caesar cipher encoding and decoding."""
+"""Caesar cipher encoding and decoding.
+
+Uses QWERTY keyboard layout for character mapping.
+"""
 
 ALPHABET = "qwertyuiopasdfghjklzxcvbnm"
 ALPHABET_SIZE = len(ALPHABET)
