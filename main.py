@@ -8,7 +8,7 @@ WHITE = "#fff"
 BLACK = "#000"
 FONT = ("Arial", 15)
 window = Tk()
-window.title("Ceasar Cipher X")
+window.title("Caesar Cipher X")
 window.config(padx=50, pady=50, bg=WHITE)
 
 # Creating the functions
