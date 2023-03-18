@@ -7,6 +7,10 @@ A desktop application for encrypting and decrypting text using the Caesar cipher
 - Copy results to clipboard
 - Simple passcode (shift) based encryption
 
+## Requirements
+
+Python 3.8+
+
 ## Installation
 
 ```
