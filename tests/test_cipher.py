@@ -27,6 +27,10 @@ def test_preserves_spaces():
     assert encrypt("hi there", 1) == "uo uifts"
 
 
+def test_zero_shift_identity():
+    assert encrypt("hello", 0) == "hello"
+
+
 def test_large_shift():
     assert encrypt("a", 26) == "a"
 
