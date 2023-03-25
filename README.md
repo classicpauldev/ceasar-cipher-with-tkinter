@@ -26,3 +26,7 @@ Run the application with:
 ```
 python main.py
 ```
+
+## License
+
+MIT
