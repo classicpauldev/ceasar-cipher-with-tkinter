@@ -5,3 +5,4 @@
 - Add keyboard shortcut for encrypt (Ctrl+E)
 - Add keyboard shortcut for decrypt (Ctrl+D)
 - Clear button to reset fields
+- Support for multiple cipher alphabets
