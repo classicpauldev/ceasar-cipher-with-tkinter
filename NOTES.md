@@ -6,3 +6,4 @@
 - Add keyboard shortcut for decrypt (Ctrl+D)
 - Clear button to reset fields
 - Support for multiple cipher alphabets
+- Improve error handling for clipboard access
