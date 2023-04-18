@@ -7,3 +7,4 @@
 - Clear button to reset fields
 - Support for multiple cipher alphabets
 - Improve error handling for clipboard access
+- Add tooltip for passcode field
