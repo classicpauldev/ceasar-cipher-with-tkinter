@@ -8,3 +8,4 @@
 - Support for multiple cipher alphabets
 - Improve error handling for clipboard access
 - Add tooltip for passcode field
+- Consider dark mode support
