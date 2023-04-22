@@ -10,3 +10,4 @@
 - Add tooltip for passcode field
 - Consider dark mode support
 - Accessibility: ensure proper tab order
+- Add unit tests for main window (optional)
