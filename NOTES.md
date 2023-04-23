@@ -11,3 +11,4 @@
 - Consider dark mode support
 - Accessibility: ensure proper tab order
 - Add unit tests for main window (optional)
+- Document QWERTY vs alphabetical cipher choice
