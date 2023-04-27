@@ -14,3 +14,4 @@
 - Document QWERTY vs alphabetical cipher choice
 - Consider adding copy button as fallback
 - Handle very long text efficiently
+- Add progress indicator for long operations
