@@ -15,3 +15,4 @@
 - Consider adding copy button as fallback
 - Handle very long text efficiently
 - Add progress indicator for long operations
+- [1] Refactor: extract UI layout to separate function
