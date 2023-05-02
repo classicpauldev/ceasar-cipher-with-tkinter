@@ -17,3 +17,4 @@
 - Add progress indicator for long operations
 - [1] Refactor: extract UI layout to separate function
 - [2] Consider using ttk for themed widgets
+- [3] Add input validation for shift (integer only)
