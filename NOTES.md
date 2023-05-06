@@ -19,3 +19,4 @@
 - [2] Consider using ttk for themed widgets
 - [3] Add input validation for shift (integer only)
 - [4] Improve canvas image positioning
+- [5] Add window icon
