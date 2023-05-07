@@ -20,3 +20,4 @@
 - [3] Add input validation for shift (integer only)
 - [4] Improve canvas image positioning
 - [5] Add window icon
+- [6] Support drag-and-drop of text file
