@@ -40,3 +40,4 @@
 - [23] Add input validation for shift (integer only)
 - [24] Improve canvas image positioning
 - [25] Add window icon
+- [26] Support drag-and-drop of text file
