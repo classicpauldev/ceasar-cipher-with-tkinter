@@ -52,3 +52,4 @@
 - [35] Add window icon
 - [36] Support drag-and-drop of text file
 - [37] Add export to file option
+- [38] Consider config file for default shift
