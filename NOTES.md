@@ -55,3 +55,4 @@
 - [38] Consider config file for default shift
 - [39] Add font size preference
 - [40] Improve responsive layout
+- [41] Refactor: extract UI layout to separate function
