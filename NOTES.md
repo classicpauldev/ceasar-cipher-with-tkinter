@@ -56,3 +56,4 @@
 - [39] Add font size preference
 - [40] Improve responsive layout
 - [41] Refactor: extract UI layout to separate function
+- [42] Consider using ttk for themed widgets
