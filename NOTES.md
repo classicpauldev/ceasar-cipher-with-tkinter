@@ -64,3 +64,4 @@
 - [47] Add export to file option
 - [48] Consider config file for default shift
 - [49] Add font size preference
+- [50] Improve responsive layout
