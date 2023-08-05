@@ -67,3 +67,4 @@
 - [50] Improve responsive layout
 - [51] Refactor: extract UI layout to separate function
 - [52] Consider using ttk for themed widgets
+- [53] Add input validation for shift (integer only)
