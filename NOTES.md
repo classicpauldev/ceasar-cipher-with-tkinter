@@ -111,3 +111,4 @@
 - [94] Improve canvas image positioning
 - [95] Add window icon
 - [96] Support drag-and-drop of text file
+- [97] Add export to file option
