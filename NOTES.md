@@ -112,3 +112,4 @@
 - [95] Add window icon
 - [96] Support drag-and-drop of text file
 - [97] Add export to file option
+- [98] Consider config file for default shift
