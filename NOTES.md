@@ -118,3 +118,4 @@
 - [101] Refactor: extract UI layout to separate function
 - [102] Consider using ttk for themed widgets
 - [103] Add input validation for shift (integer only)
+- [104] Improve canvas image positioning
