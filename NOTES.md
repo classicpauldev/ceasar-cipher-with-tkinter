@@ -120,3 +120,4 @@
 - [103] Add input validation for shift (integer only)
 - [104] Improve canvas image positioning
 - [105] Add window icon
+- [106] Support drag-and-drop of text file
