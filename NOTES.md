@@ -139,3 +139,4 @@
 - [122] Consider using ttk for themed widgets
 - [123] Add input validation for shift (integer only)
 - [124] Improve canvas image positioning
+- [125] Add window icon
