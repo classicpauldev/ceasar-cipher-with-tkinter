@@ -143,3 +143,4 @@
 - [126] Support drag-and-drop of text file
 - [127] Add export to file option
 - [128] Consider config file for default shift
+- [129] Add font size preference
