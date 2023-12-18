@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-Enter text and a numeric passcode (shift value) (shift). Click Encrypt or Decrypt.
+Enter text and a numeric passcode (shift value). Click Encrypt or Decrypt.
 
 Run the application with:
 
