@@ -72,6 +72,9 @@ encode_button.grid(column=1, row=2)
 decode_button = Button(text="Decrypt", highlightbackground=WHITE, width=20, command=decrypt)
 decode_button.grid(column=2, row=2)
 
+window.bind("<Control-e>", lambda e: encrypt())
+window.bind("<Control-d>", lambda e: decrypt())
+
 
 # Creating the image
 canvas = Canvas(width=250, height=250, bg=WHITE, highlightthickness=0)
