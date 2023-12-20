@@ -14,6 +14,14 @@ window.config(padx=50, pady=50, bg=WHITE)
 # Creating the functions
 
 
+def _clear_fields():
+    """Clear text and passcode fields."""
+    text_entry.delete(0, END)
+    text_entry.insert(END, string="Write a text")
+    shift_entry.delete(0, END)
+    shift_entry.insert(END, string="Passcode")
+
+
 def _get_shift() -> int | None:
     """Parse shift from entry, show error and return None if invalid."""
     try:
@@ -71,6 +79,9 @@ encode_button.grid(column=1, row=2)
 
 decode_button = Button(text="Decrypt", highlightbackground=WHITE, width=20, command=decrypt)
 decode_button.grid(column=2, row=2)
+
+clear_button = Button(text="Clear", highlightbackground=WHITE, width=20, command=_clear_fields)
+clear_button.grid(column=0, row=3, columnspan=3)
 
 window.bind("<Control-e>", lambda e: encrypt())
 window.bind("<Control-d>", lambda e: decrypt())
