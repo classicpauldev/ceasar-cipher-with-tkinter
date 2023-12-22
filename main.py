@@ -41,7 +41,10 @@ def encrypt():
     if shift is None:
         return
     encrypted_word = cipher_encrypt(word, shift)
-    clipboard.copy(encrypted_word)
+    try:
+        clipboard.copy(encrypted_word)
+    except Exception:
+        pass  # Continue even if clipboard fails
     text_entry.delete(0, END)
     text_entry.insert(END, string=encrypted_word)
     tkinter.messagebox.showinfo(title="Success", message="The encrypted text has been saved to your clipboard")
@@ -57,7 +60,10 @@ def decrypt():
     if shift is None:
         return
     decrypted_word = cipher_decrypt(word, shift)
-    clipboard.copy(decrypted_word)
+    try:
+        clipboard.copy(decrypted_word)
+    except Exception:
+        pass  # Continue even if clipboard fails
     text_entry.delete(0, END)
     text_entry.insert(END, string=decrypted_word)
     tkinter.messagebox.showinfo(title="Success", message="The decrypted text has been saved to your clipboard")
