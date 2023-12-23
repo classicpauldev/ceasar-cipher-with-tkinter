@@ -96,6 +96,6 @@ window.bind("<Control-d>", lambda e: decrypt())
 # Creating the image
 canvas = Canvas(width=250, height=250, bg=WHITE, highlightthickness=0)
 photo = PhotoImage(file='logo.png')
-canvas.create_image(100, 100, image=photo)
+canvas.create_image(125, 125, image=photo)
 canvas.grid(column=1, row=0)
 window.mainloop()
