@@ -7,6 +7,9 @@ from cipher import encrypt as cipher_encrypt, decrypt as cipher_decrypt
 WHITE = "#fff"
 BLACK = "#000"
 FONT = ("Arial", 15)
+PLACEHOLDER_TEXT = "Write a text"
+PLACEHOLDER_PASSCODE = "Passcode"
+
 window = Tk()
 window.title("Caesar Cipher X")
 window.config(padx=50, pady=50, bg=WHITE)
@@ -17,9 +20,9 @@ window.config(padx=50, pady=50, bg=WHITE)
 def _clear_fields():
     """Clear text and passcode fields."""
     text_entry.delete(0, END)
-    text_entry.insert(END, string="Write a text")
+    text_entry.insert(END, string=PLACEHOLDER_TEXT)
     shift_entry.delete(0, END)
-    shift_entry.insert(END, string="Passcode")
+    shift_entry.insert(END, string=PLACEHOLDER_PASSCODE)
 
 
 def _get_shift() -> int | None:
@@ -34,7 +37,7 @@ def _get_shift() -> int | None:
 def encrypt():
     """Encrypt the text in the entry field using the passcode shift."""
     word = text_entry.get().strip()
-    if word in ("", "Write a text"):
+    if word in ("", PLACEHOLDER_TEXT):
         tkinter.messagebox.showerror(title="Error", message="Please enter some text to encrypt")
         return False
     shift = _get_shift()
@@ -53,7 +56,7 @@ def encrypt():
 def decrypt():
     """Decrypt the text in the entry field using the passcode shift."""
     word = text_entry.get().strip()
-    if word in ("", "Write a text"):
+    if word in ("", PLACEHOLDER_TEXT):
         tkinter.messagebox.showerror(title="Error", message="Please enter some text to decrypt")
         return False
     shift = _get_shift()
@@ -71,13 +74,13 @@ def decrypt():
 
 # Creating the entry textbox
 text_entry = Entry(width=65, highlightbackground=WHITE, highlightthickness=0)
-text_entry.insert(END, string="Write a text")
+text_entry.insert(END, string=PLACEHOLDER_TEXT)
 text_entry.focus()
 text_entry.grid(column=0, row=1, columnspan=3)
 
 
 shift_entry = Entry(width=13, highlightbackground=WHITE, highlightthickness=0)
-shift_entry.insert(END, string="Passcode")
+shift_entry.insert(END, string=PLACEHOLDER_PASSCODE)
 shift_entry.grid(column=0, row=2)
 
 encode_button = Button(text="Encrypt", highlightbackground=WHITE, width=20, command=encrypt)
