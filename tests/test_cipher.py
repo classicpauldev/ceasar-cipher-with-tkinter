@@ -47,3 +47,9 @@ def test_negative_shift():
     """Decrypt text that was encrypted with a negative shift."""
     encrypted = encrypt("hello", -3)
     assert decrypt(encrypted, -3) == "hello"
+
+
+def test_shift_13_roundtrip():
+    """ROT13-style: encrypting twice with shift 13 returns original."""
+    text = "secret message"
+    assert decrypt(encrypt(text, 13), 13) == text
