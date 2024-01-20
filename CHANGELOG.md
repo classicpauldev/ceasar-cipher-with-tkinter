@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added (2024)
+- Clipboard error handling (graceful fallback)
+- CONTRIBUTING.md
+
 ### Added
 - Initial release with encrypt/decrypt functionality
 - Keyboard shortcuts (Ctrl+E encrypt, Ctrl+D decrypt)
