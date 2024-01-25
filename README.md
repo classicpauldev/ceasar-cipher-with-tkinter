@@ -28,6 +28,12 @@ Run the application with:
 python main.py
 ```
 
+## Running Tests
+
+```bash
+pytest tests/ -v
+```
+
 ## License
 
 MIT
