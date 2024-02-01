@@ -4,7 +4,7 @@ A desktop application for encrypting and decrypting text using the Caesar cipher
 
 ## Features
 - Encrypt and decrypt text
-- Keyboard shortcuts: Ctrl+E (encrypt), Ctrl+D (decrypt)
+- Keyboard shortcuts: Ctrl+E (encrypt), Ctrl+D (decrypt), Ctrl+L (clear)
 - Copy results to clipboard
 - Simple passcode (shift) based encryption
 

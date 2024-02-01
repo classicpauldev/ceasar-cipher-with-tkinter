@@ -94,6 +94,7 @@ clear_button.grid(column=0, row=3, columnspan=3)
 
 window.bind("<Control-e>", lambda e: encrypt())
 window.bind("<Control-d>", lambda e: decrypt())
+window.bind("<Control-l>", lambda e: _clear_fields())
 
 
 # Creating the image
