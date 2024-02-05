@@ -16,3 +16,4 @@ pytest tests/ -v
 
 - Use 4 spaces for indentation (see .editorconfig)
 - Follow existing patterns in the codebase
+- Add tests for new cipher behavior
