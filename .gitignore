@@ -18,3 +18,4 @@ venv/
 # Build script
 build_history.py
 *.pyc
+add_more_history.py
