@@ -3,6 +3,7 @@
 ## 2024 roadmap
 - v1.1: ROT13 preset button
 - v1.2: Export to file
+- v1.3: Dark mode toggle
 
 - Consider adding ROT13 preset
 - Validate shift range (e.g. 0-25)
