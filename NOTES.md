@@ -150,3 +150,4 @@
 - [128] Consider config file for default shift
 - [129] Add font size preference
 - [130] Improve responsive layout
+- 2024: Explore ROT13 preset implementation [1]
