@@ -152,3 +152,4 @@
 - [130] Improve responsive layout
 - 2024: Explore ROT13 preset implementation [1]
 - 2024: Evaluate ttk for native look [2]
+- 2024: Shift range validation UX [3]
