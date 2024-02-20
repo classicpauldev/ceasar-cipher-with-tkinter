@@ -156,3 +156,4 @@
 - 2024: Window icon asset design [4]
 - 2024: Drag-and-drop text file support [5]
 - 2024: Export result to file [6]
+- 2024: Config file for defaults [7]
