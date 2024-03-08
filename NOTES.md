@@ -168,3 +168,4 @@
 - 2024: Preset shift buttons (3, 7, 13) [16]
 - 2024: Copy button fallback [17]
 - 2024: Progress for long text [18]
+- 2024: About dialog [19]
