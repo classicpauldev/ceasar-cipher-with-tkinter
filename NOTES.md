@@ -180,3 +180,4 @@
 - 2024: Shift range validation UX [28]
 - 2024: Window icon asset design [29]
 - 2024: Drag-and-drop text file support [30]
+- 2024: Export result to file [31]
