@@ -183,3 +183,4 @@
 - 2024: Export result to file [31]
 - 2024: Config file for defaults [32]
 - 2024: Font size preference [33]
+- 2024: Responsive layout improvements [34]
