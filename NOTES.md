@@ -185,3 +185,4 @@
 - 2024: Font size preference [33]
 - 2024: Responsive layout improvements [34]
 - 2024: Undo last encrypt/decrypt [35]
+- 2024: History of recent operations [36]
