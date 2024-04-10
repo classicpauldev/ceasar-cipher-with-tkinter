@@ -191,3 +191,4 @@
 - 2024: Tab order for accessibility [39]
 - 2024: Batch encrypt multiple lines [40]
 - 2024: Preset shift buttons (3, 7, 13) [41]
+- 2024: Copy button fallback [42]
