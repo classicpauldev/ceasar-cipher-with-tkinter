@@ -194,3 +194,4 @@
 - 2024: Copy button fallback [42]
 - 2024: Progress for long text [43]
 - 2024: About dialog [44]
+- 2024: Help menu [45]
