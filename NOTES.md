@@ -203,3 +203,4 @@
 - 2024: Explore ROT13 preset implementation [51]
 - 2024: Evaluate ttk for native look [52]
 - 2024: Shift range validation UX [53]
+- 2024: Window icon asset design [54]
