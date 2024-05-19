@@ -215,3 +215,4 @@
 - 2024: Tooltips on hover [63]
 - 2024: Tab order for accessibility [64]
 - 2024: Batch encrypt multiple lines [65]
+- 2024: Preset shift buttons (3, 7, 13) [66]
