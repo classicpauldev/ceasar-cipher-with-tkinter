@@ -225,3 +225,4 @@
 - 2024: High DPI scaling [73]
 - 2024: Logging for debug [74]
 - 2024: Error recovery improvements [75]
+- 2024: Explore ROT13 preset implementation [76]
