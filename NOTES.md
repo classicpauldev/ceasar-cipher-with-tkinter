@@ -248,3 +248,4 @@
 - 2024: Settings panel [96]
 - 2024: Theme switcher stub [97]
 - 2024: High DPI scaling [98]
+- 2024: Logging for debug [99]
