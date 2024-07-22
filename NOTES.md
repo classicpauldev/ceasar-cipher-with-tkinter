@@ -252,3 +252,4 @@
 - 2024: Error recovery improvements [100]
 - 2024: Explore ROT13 preset implementation [101]
 - 2024: Evaluate ttk for native look [102]
+- 2024: Shift range validation UX [103]
