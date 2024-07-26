@@ -255,3 +255,4 @@
 - 2024: Shift range validation UX [103]
 - 2024: Window icon asset design [104]
 - 2024: Drag-and-drop text file support [105]
+- 2024: Export result to file [106]
