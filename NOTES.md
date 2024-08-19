@@ -270,3 +270,4 @@
 - 2024: Progress for long text [118]
 - 2024: About dialog [119]
 - 2024: Help menu [120]
+- 2024: Settings panel [121]
