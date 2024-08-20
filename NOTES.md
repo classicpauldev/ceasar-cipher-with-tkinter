@@ -271,3 +271,4 @@
 - 2024: About dialog [119]
 - 2024: Help menu [120]
 - 2024: Settings panel [121]
+- 2024: Theme switcher stub [122]
