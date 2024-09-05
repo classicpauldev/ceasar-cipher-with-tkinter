@@ -282,3 +282,4 @@
 - 2024: Drag-and-drop text file support [130]
 - 2024: Export result to file [131]
 - 2024: Config file for defaults [132]
+- 2024: Font size preference [133]
