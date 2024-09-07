@@ -284,3 +284,4 @@
 - 2024: Config file for defaults [132]
 - 2024: Font size preference [133]
 - 2024: Responsive layout improvements [134]
+- 2024: Undo last encrypt/decrypt [135]
