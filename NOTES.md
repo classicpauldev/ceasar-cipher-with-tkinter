@@ -288,3 +288,4 @@
 - 2024: History of recent operations [136]
 - 2024: Multi-language support [137]
 - 2024: Tooltips on hover [138]
+- 2024: Tab order for accessibility [139]
