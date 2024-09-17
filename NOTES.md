@@ -289,3 +289,4 @@
 - 2024: Multi-language support [137]
 - 2024: Tooltips on hover [138]
 - 2024: Tab order for accessibility [139]
+- 2024: Batch encrypt multiple lines [140]
