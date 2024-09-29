@@ -299,3 +299,4 @@
 - 2024: Theme switcher stub [147]
 - 2024: High DPI scaling [148]
 - 2024: Logging for debug [149]
+- 2024: Error recovery improvements [150]
