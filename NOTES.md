@@ -301,3 +301,4 @@
 - 2024: Logging for debug [149]
 - 2024: Error recovery improvements [150]
 - 2024: Explore ROT13 preset implementation [151]
+- 2024: Evaluate ttk for native look [152]
