@@ -304,3 +304,4 @@
 - 2024: Evaluate ttk for native look [152]
 - 2024: Shift range validation UX [153]
 - 2024: Window icon asset design [154]
+- 2024: Drag-and-drop text file support [155]
