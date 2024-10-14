@@ -308,3 +308,4 @@
 - 2024: Export result to file [156]
 - 2024: Config file for defaults [157]
 - 2024: Font size preference [158]
+- 2024: Responsive layout improvements [159]
