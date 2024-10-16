@@ -310,3 +310,4 @@
 - 2024: Font size preference [158]
 - 2024: Responsive layout improvements [159]
 - 2024: Undo last encrypt/decrypt [160]
+- 2024: History of recent operations [161]
