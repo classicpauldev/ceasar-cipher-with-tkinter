@@ -312,3 +312,4 @@
 - 2024: Undo last encrypt/decrypt [160]
 - 2024: History of recent operations [161]
 - 2024: Multi-language support [162]
+- 2024: Tooltips on hover [163]
