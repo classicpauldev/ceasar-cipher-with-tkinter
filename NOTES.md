@@ -322,3 +322,4 @@
 - 2024: Help menu [170]
 - 2024: Settings panel [171]
 - 2024: Theme switcher stub [172]
+- 2024: High DPI scaling [173]
