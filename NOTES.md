@@ -333,3 +333,4 @@
 - 2024: Export result to file [181]
 - 2024: Config file for defaults [182]
 - 2024: Font size preference [183]
+- 2024: Responsive layout improvements [184]
