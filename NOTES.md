@@ -336,3 +336,4 @@
 - 2024: Responsive layout improvements [184]
 - 2024: Undo last encrypt/decrypt [185]
 - 2024: History of recent operations [186]
+- 2024: Multi-language support [187]
