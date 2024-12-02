@@ -342,3 +342,4 @@
 - 2024: Batch encrypt multiple lines [190]
 - 2024: Preset shift buttons (3, 7, 13) [191]
 - 2024: Copy button fallback [192]
+- 2024: Progress for long text [193]
