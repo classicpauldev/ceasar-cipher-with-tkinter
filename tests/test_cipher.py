@@ -44,4 +44,6 @@ def test_empty_string():
 
 
 def test_negative_shift():
-    assert decrypt("lyccs", -3) == "hello"
+    """Decrypt text that was encrypted with a negative shift."""
+    encrypted = encrypt("hello", -3)
+    assert decrypt(encrypted, -3) == "hello"
