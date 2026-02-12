@@ -7,11 +7,11 @@ from cipher import encrypt, decrypt, transform
 
 
 def test_encrypt_basic():
-    assert encrypt("hello", 3) == "itssg"
+    assert encrypt("hello", 3) == "lyccs"
 
 
 def test_decrypt_basic():
-    assert decrypt("itssg", 3) == "hello"
+    assert decrypt("lyccs", 3) == "hello"
 
 
 def test_roundtrip():
@@ -20,11 +20,11 @@ def test_roundtrip():
 
 
 def test_preserves_non_letters():
-    assert encrypt("hello!", 2) == "itssg!"
+    assert encrypt("hello!", 2) == "ktxxa!"
 
 
 def test_preserves_spaces():
-    assert encrypt("hi there", 1) == "uo uifts"
+    assert encrypt("hi there", 1) == "jo yjrtr"
 
 
 def test_zero_shift_identity():
@@ -36,7 +36,7 @@ def test_large_shift():
 
 
 def test_uppercase_preserved():
-    assert encrypt("Hello", 1) == "Itssp"
+    assert encrypt("Hello", 1) == "Jrzzp"
 
 
 def test_empty_string():
@@ -44,4 +44,4 @@ def test_empty_string():
 
 
 def test_negative_shift():
-    assert decrypt("itssg", -3) == "hello"
+    assert decrypt("lyccs", -3) == "hello"
